@@ -14,6 +14,50 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(images/bg-pattern-card.svg) ;
+    border: 2px solid white;
+    border-radius: 2%;
+    width: 22em;
+    min-height: 25em;
+}
+
+/* .content #name  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    font-weight: 400;
+}
+*/
+hr {
+    width: 21.90em;
+} 
+
+main .list {
+    padding: 11px;
+    background-color: white;
+}
+
+
+main ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin: 2px;
+}
+
+main ul h1 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+main ul p {
+    font-weight: 400;
+    color: hsl(229, 23%, 23%);
 }
 
 
